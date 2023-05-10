@@ -1,0 +1,77 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "oldPrice": {
+      "type": "integer"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "string"
+    },
+    "shipping": {
+      "type": "boolean"
+    },
+    "arraycolor": {
+      "displayName": "product_info",
+      "type": "component",
+      "repeatable": true,
+      "component": "colors.product-info"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "men",
+        "women",
+        "kids",
+        "accessories",
+        "footwear",
+        "beauty"
+      ]
+    },
+    "cole": {
+      "type": "json"
+    },
+    "sub_categories": {
+      "type": "enumeration",
+      "enum": [
+        "t-shirt"
+      ]
+    },
+    "newPrice": {
+      "type": "integer"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "stock": {
+      "type": "integer"
+    },
+    "brand": {
+      "type": "string"
+    }
+  }
+}

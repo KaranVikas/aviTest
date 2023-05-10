@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_colors_arrs",
+  "info": {
+    "displayName": "arr"
+  },
+  "options": {},
+  "attributes": {
+    "colValue": {
+      "type": "string"
+    }
+  }
+}
