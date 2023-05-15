@@ -58,7 +58,10 @@
     "sub_categories": {
       "type": "enumeration",
       "enum": [
-        "t-shirt"
+        "t-shirt",
+        "jeans",
+        "shirts",
+        "shoes"
       ]
     },
     "newPrice": {
